@@ -7,9 +7,9 @@ const Home = () => {
             <h2>Registration List</h2>
         </div>
         <div className="row clearfix">
-            <Edit />
-            <List />
+            <Edit />            
         </div>
+        <List />
     </>
 };
 
