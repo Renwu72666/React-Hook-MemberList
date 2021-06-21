@@ -84,7 +84,9 @@ body {
 .form_wrapper .textarea_field > span > i {
   padding-top: 10px;
 }
-.form_wrapper input[type="text"], .form_wrapper input[type="email"], .form_wrapper input[type="password"] {
+.form_wrapper input[type="text"],
+.form_wrapper input[type="email"],
+.form_wrapper input[type="password"] {
   width: 100%;
   padding: 8px 10px 9px 35px;
   height: 35px;
@@ -96,10 +98,14 @@ body {
   -ms-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
-.form_wrapper input[type="text"]:hover, .form_wrapper input[type="email"]:hover, .form_wrapper input[type="password"]:hover {
+.form_wrapper input[type="text"]:hover,
+.form_wrapper input[type="email"]:hover,
+.form_wrapper input[type="password"]:hover {
   background: #fafafa;
 }
-.form_wrapper input[type="text"]:focus, .form_wrapper input[type="email"]:focus, .form_wrapper input[type="password"]:focus {
+.form_wrapper input[type="text"]:focus,
+.form_wrapper input[type="email"]:focus,
+.form_wrapper input[type="password"]:focus {
   -webkit-box-shadow: 0 0 2px 1px rgba(255, 169, 0, 0.5);
   -moz-box-shadow: 0 0 2px 1px rgba(255, 169, 0, 0.5);
   box-shadow: 0 0 2px 1px rgba(255, 169, 0, 0.5);
@@ -128,7 +134,8 @@ body {
 .form_wrapper input[type="submit"]:focus {
   background: #e1a70a;
 }
-.form_wrapper input[type="checkbox"], .form_wrapper input[type="radio"] {
+.form_wrapper input[type="checkbox"],
+.form_wrapper input[type="radio"] {
   border: 0;
   clip: rect(0 0 0 0);
   height: 1px;
@@ -232,7 +239,8 @@ body {
 .select_option select::-ms-expand {
   display: none;
 }
-.select_option select:hover, .select_option select:focus {
+.select_option select:hover,
+.select_option select:focus {
   color: #000;
   background: #fafafa;
   border-color: #000;
@@ -249,7 +257,8 @@ body {
   border-style: solid;
   border-color: #7b7b7b transparent transparent transparent;
 }
-.select_option select:hover + .select_arrow, .select_option select:focus + .select_arrow {
+.select_option select:hover + .select_arrow,
+.select_option select:focus + .select_arrow {
   border-top-color: #000;
 }
 .credit {
@@ -266,131 +275,131 @@ body {
   0% {
     height: 0;
     width: 0;
- }
+  }
   25% {
     height: 0;
     width: 7px;
- }
+  }
   50% {
     height: 20px;
     width: 7px;
- }
+  }
 }
 @keyframes check {
   0% {
     height: 0;
     width: 0;
- }
+  }
   25% {
     height: 0;
     width: 7px;
- }
+  }
   50% {
     height: 20px;
     width: 7px;
- }
+  }
 }
 @-webkit-keyframes expand {
   0% {
     -webkit-transform: scale3d(1, 0, 1);
     opacity: 0;
- }
+  }
   25% {
     -webkit-transform: scale3d(1, 1.2, 1);
- }
+  }
   50% {
     -webkit-transform: scale3d(1, 0.85, 1);
- }
+  }
   75% {
     -webkit-transform: scale3d(1, 1.05, 1);
- }
+  }
   100% {
     -webkit-transform: scale3d(1, 1, 1);
     opacity: 1;
- }
+  }
 }
 @keyframes expand {
   0% {
     -webkit-transform: scale3d(1, 0, 1);
     transform: scale3d(1, 0, 1);
     opacity: 0;
- }
+  }
   25% {
     -webkit-transform: scale3d(1, 1.2, 1);
     transform: scale3d(1, 1.2, 1);
- }
+  }
   50% {
     -webkit-transform: scale3d(1, 0.85, 1);
     transform: scale3d(1, 0.85, 1);
- }
+  }
   75% {
     -webkit-transform: scale3d(1, 1.05, 1);
     transform: scale3d(1, 1.05, 1);
- }
+  }
   100% {
     -webkit-transform: scale3d(1, 1, 1);
     transform: scale3d(1, 1, 1);
     opacity: 1;
- }
+  }
 }
 @-webkit-keyframes bounce {
   0% {
     -webkit-transform: translate3d(0, -25px, 0);
     opacity: 0;
- }
+  }
   25% {
     -webkit-transform: translate3d(0, 10px, 0);
- }
+  }
   50% {
     -webkit-transform: translate3d(0, -6px, 0);
- }
+  }
   75% {
     -webkit-transform: translate3d(0, 2px, 0);
- }
+  }
   100% {
     -webkit-transform: translate3d(0, 0, 0);
     opacity: 1;
- }
+  }
 }
 @keyframes bounce {
   0% {
     -webkit-transform: translate3d(0, -25px, 0);
     transform: translate3d(0, -25px, 0);
     opacity: 0;
- }
+  }
   25% {
     -webkit-transform: translate3d(0, 10px, 0);
     transform: translate3d(0, 10px, 0);
- }
+  }
   50% {
     -webkit-transform: translate3d(0, -6px, 0);
     transform: translate3d(0, -6px, 0);
- }
+  }
   75% {
     -webkit-transform: translate3d(0, 2px, 0);
     transform: translate3d(0, 2px, 0);
- }
+  }
   100% {
     -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
     opacity: 1;
- }
+  }
 }
 @media (max-width: 600px) {
   .form_wrapper .col_half {
     width: 100%;
     float: none;
- }
+  }
   .bottom_row .col_half {
     width: 50%;
     float: left;
- }
+  }
   .form_container .row .col_half.last {
     border-left: none;
- }
+  }
   .remember_me {
     padding-bottom: 20px;
- }
+  }
 }
 
 @import url(https://fonts.googleapis.com/css?family=Montserrat:900|Raleway:400,400i,700,700i);
@@ -399,95 +408,140 @@ body {
 /* Colors */
 /*** EXTEND ***/
 /* box-shadow */
- ol.gradient-list > li, ol.gradient-list > li::before {
-	 box-shadow: 0.25rem 0.25rem 0.6rem rgba(0, 0, 0, 0.05), 0 0.5rem 1.125rem rgba(75, 0, 0, 0.05);
+ol.gradient-list > li,
+ol.gradient-list > li::before {
+  box-shadow: 0.25rem 0.25rem 0.6rem rgba(0, 0, 0, 0.05),
+    0 0.5rem 1.125rem rgba(75, 0, 0, 0.05);
 }
 /*** STYLE ***/
- *, *:before, *:after {
-	 box-sizing: border-box;
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
 }
- html, body {
-	 margin: 0;
-	 padding: 0;
+html,
+body {
+  margin: 0;
+  padding: 0;
 }
- body {
-	 background-color: #fafafa;
-	 color: #1d1f20;
-	 font-family: 'Raleway', sans-serif;
+body {
+  background-color: #fafafa;
+  color: #1d1f20;
+  font-family: "Raleway", sans-serif;
 }
- main {
-	 display: block;
-	 margin: 0 auto;
-	 max-width: 40rem;
-	 /* padding: 1rem; */
+main {
+  display: block;
+  margin: 0 auto;
+  max-width: 40rem;
+  /* padding: 1rem; */
 }
- ol.gradient-list {
-	 counter-reset: gradient-counter;
-	 list-style: none;
-	 margin: 1.75rem 0;
-	 padding-left: 1rem;
+ol.gradient-list {
+  counter-reset: gradient-counter;
+  list-style: none;
+  margin: 1.75rem 0;
+  padding-left: 1rem;
 }
- ol.gradient-list > li {
-	 background: white;
-	 border-radius: 0 0.5rem 0.5rem 0.5rem;
-	 counter-increment: gradient-counter;
-	 margin-top: 1rem;
-	 min-height: 3rem;
-	 padding: 1rem 1rem 1rem 3rem;
-	 position: relative;
+ol.gradient-list > li {
+  background: white;
+  border-radius: 0 0.5rem 0.5rem 0.5rem;
+  counter-increment: gradient-counter;
+  margin-top: 1rem;
+  min-height: 3rem;
+  padding: 1rem 1rem 1rem 3rem;
+  position: relative;
 }
- ol.gradient-list > li::before, ol.gradient-list > li::after {
-	 background: linear-gradient(135deg, #83e4e2 0%, #a2ed56 100%);
-	 border-radius: 1rem 1rem 0 1rem;
-	 content: '';
-	 height: 3rem;
-	 left: -1rem;
-	 overflow: hidden;
-	 position: absolute;
-	 top: -1rem;
-	 width: 3rem;
+ol.gradient-list > li::before,
+ol.gradient-list > li::after {
+  background: linear-gradient(135deg, #83e4e2 0%, #a2ed56 100%);
+  border-radius: 1rem 1rem 0 1rem;
+  content: "";
+  height: 3rem;
+  left: -1rem;
+  overflow: hidden;
+  position: absolute;
+  top: -1rem;
+  width: 3rem;
 }
- ol.gradient-list > li::before {
-	 align-items: flex-end;
-	 content: counter(gradient-counter);
-	 color: #1d1f20;
-	 display: flex;
-	 font: 900 1.5em/1 'Montserrat';
-	 justify-content: flex-end;
-	 padding: 0.125em 0.25em;
-	 z-index: 1;
+ol.gradient-list > li::before {
+  align-items: flex-end;
+  content: counter(gradient-counter);
+  color: #1d1f20;
+  display: flex;
+  font: 900 1.5em/1 "Montserrat";
+  justify-content: flex-end;
+  padding: 0.125em 0.25em;
+  z-index: 1;
 }
- ol.gradient-list > li:nth-child(10n+1):before {
-	 background: linear-gradient(135deg, rgba(162, 237, 86, 0.2) 0%, rgba(253, 220, 50, 0.2) 100%);
+ol.gradient-list > li:nth-child(10n + 1):before {
+  background: linear-gradient(
+    135deg,
+    rgba(162, 237, 86, 0.2) 0%,
+    rgba(253, 220, 50, 0.2) 100%
+  );
 }
- ol.gradient-list > li:nth-child(10n+2):before {
-	 background: linear-gradient(135deg, rgba(162, 237, 86, 0.4) 0%, rgba(253, 220, 50, 0.4) 100%);
+ol.gradient-list > li:nth-child(10n + 2):before {
+  background: linear-gradient(
+    135deg,
+    rgba(162, 237, 86, 0.4) 0%,
+    rgba(253, 220, 50, 0.4) 100%
+  );
 }
- ol.gradient-list > li:nth-child(10n+3):before {
-	 background: linear-gradient(135deg, rgba(162, 237, 86, 0.6) 0%, rgba(253, 220, 50, 0.6) 100%);
+ol.gradient-list > li:nth-child(10n + 3):before {
+  background: linear-gradient(
+    135deg,
+    rgba(162, 237, 86, 0.6) 0%,
+    rgba(253, 220, 50, 0.6) 100%
+  );
 }
- ol.gradient-list > li:nth-child(10n+4):before {
-	 background: linear-gradient(135deg, rgba(162, 237, 86, 0.8) 0%, rgba(253, 220, 50, 0.8) 100%);
+ol.gradient-list > li:nth-child(10n + 4):before {
+  background: linear-gradient(
+    135deg,
+    rgba(162, 237, 86, 0.8) 0%,
+    rgba(253, 220, 50, 0.8) 100%
+  );
 }
- ol.gradient-list > li:nth-child(10n+5):before {
-	 background: linear-gradient(135deg, rgba(162, 237, 86, 1) 0%, rgba(253, 220, 50, 1) 100%);
+ol.gradient-list > li:nth-child(10n + 5):before {
+  background: linear-gradient(
+    135deg,
+    rgba(162, 237, 86, 1) 0%,
+    rgba(253, 220, 50, 1) 100%
+  );
 }
- ol.gradient-list > li:nth-child(10n+6):before {
-	 background: linear-gradient(135deg, rgba(162, 237, 86, 0.8) 0%, rgba(253, 220, 50, 0.8) 100%);
+ol.gradient-list > li:nth-child(10n + 6):before {
+  background: linear-gradient(
+    135deg,
+    rgba(162, 237, 86, 0.8) 0%,
+    rgba(253, 220, 50, 0.8) 100%
+  );
 }
- ol.gradient-list > li:nth-child(10n+7):before {
-	 background: linear-gradient(135deg, rgba(162, 237, 86, 0.6) 0%, rgba(253, 220, 50, 0.6) 100%);
+ol.gradient-list > li:nth-child(10n + 7):before {
+  background: linear-gradient(
+    135deg,
+    rgba(162, 237, 86, 0.6) 0%,
+    rgba(253, 220, 50, 0.6) 100%
+  );
 }
- ol.gradient-list > li:nth-child(10n+8):before {
-	 background: linear-gradient(135deg, rgba(162, 237, 86, 0.4) 0%, rgba(253, 220, 50, 0.4) 100%);
+ol.gradient-list > li:nth-child(10n + 8):before {
+  background: linear-gradient(
+    135deg,
+    rgba(162, 237, 86, 0.4) 0%,
+    rgba(253, 220, 50, 0.4) 100%
+  );
 }
- ol.gradient-list > li:nth-child(10n+9):before {
-	 background: linear-gradient(135deg, rgba(162, 237, 86, 0.2) 0%, rgba(253, 220, 50, 0.2) 100%);
+ol.gradient-list > li:nth-child(10n + 9):before {
+  background: linear-gradient(
+    135deg,
+    rgba(162, 237, 86, 0.2) 0%,
+    rgba(253, 220, 50, 0.2) 100%
+  );
 }
- ol.gradient-list > li:nth-child(10n+10):before {
-	 background: linear-gradient(135deg, rgba(162, 237, 86, 0) 0%, rgba(253, 220, 50, 0) 100%);
+ol.gradient-list > li:nth-child(10n + 10):before {
+  background: linear-gradient(
+    135deg,
+    rgba(162, 237, 86, 0) 0%,
+    rgba(253, 220, 50, 0) 100%
+  );
 }
- ol.gradient-list > li + li {
-	 margin-top: 2rem;
+ol.gradient-list > li + li {
+  margin-top: 2rem;
 }
- 
