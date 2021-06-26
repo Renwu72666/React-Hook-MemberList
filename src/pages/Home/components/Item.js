@@ -1,6 +1,7 @@
-const Item = ({ id, firstName, lastName, deleteData }) => {
+const Item = ({ id, firstName, lastName, deleteData, submittingState }) => {
   function deleteItem() {
     deleteData(function (prev) {
+      submittingState.current = true;
       return prev.filter((item) => item.id !== id);
     });
   }
