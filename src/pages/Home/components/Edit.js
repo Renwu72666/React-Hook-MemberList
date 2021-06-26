@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { v4 } from "uuid";
-const Edit = ({ add }) => {
+
+const Edit = ({ add, submittingState }) => {
   const [firstName, setfirstName] = useState("");
   function firstNameOnchange(e) {
     setfirstName(e.target.value);
@@ -14,6 +15,7 @@ const Edit = ({ add }) => {
   console.log(firstName, lastName);
 
   function addItem() {
+    submittingState.current = true;
     add(function (preData) {
       return [
        
